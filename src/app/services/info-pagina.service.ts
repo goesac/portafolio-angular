@@ -37,7 +37,6 @@ this.cargarEquipo();
         .subscribe( (resp: any[]) => {
 
           this.equipo = resp;
-          console.log(resp);
 
         });
   }
